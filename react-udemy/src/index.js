@@ -4,13 +4,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 /* import { UseStateJs } from './UseStateJs'; */
 /* import { UseEffectJs } from './UseEffectJs'; */
-import { UseCallBackJs } from './UseCallBackJs';
+/* import { UseCallBackJs } from './UseCallBackJs'; */
+import { UseMemo } from './UseMemo';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <UseStateJs /> */}
     {/* <UseEffectJs /> */}
-    <UseCallBackJs />
+    {/* <UseCallBackJs /> */}
+    <UseMemo />
   </React.StrictMode>,
   document.getElementById('root'),
 );
