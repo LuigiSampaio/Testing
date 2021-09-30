@@ -2,17 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+
 /* import { UseStateJs } from './UseStateJs'; */
 /* import { UseEffectJs } from './UseEffectJs'; */
 /* import { UseCallBackJs } from './UseCallBackJs'; */
-import { UseMemo } from './UseMemo';
+/* import { UseMemo } from './UseMemo'; */
+import { UseRef } from './UseRef';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <UseStateJs /> */}
     {/* <UseEffectJs /> */}
     {/* <UseCallBackJs /> */}
-    <UseMemo />
+    {/* <UseMemo /> */}
+    <UseRef />
   </React.StrictMode>,
   document.getElementById('root'),
 );
